@@ -1,19 +1,23 @@
 %{
-#include<iostream>
-#include<string>
-using namespace std;
+#include<stdio.h>
+#include<string.h>
 int len=0;
-string word;
+char word[100];
 %}
-%option noyywrap
+
 %%
-[a-zA-Z]+ {if(yyleng>word.length())
+[a-zA-Z]+ {if(yyleng>len)
             {
-              word = yytext;
+              len = yyleng;
+              strcpy(word,yytext);
             }}
 %%
 int main()
 {
-cout << "Longest word is \"" << word << "\" of length "<< len;
-return 0;
+extern FILE *yyin;
+  
+yyin = fopen("input2.txt","r"); 
+yylex();
+printf("Longest word is \"%s\" of length %d\n",word,len);
 }
+int yywrap(){}
