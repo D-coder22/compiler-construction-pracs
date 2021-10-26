@@ -8,5 +8,6 @@ Codes made during Compiler Construction Practicals
 | :-----: | :--------------------------- |
 |    1    | to be added                  |
 |    2    | [Introduction to Lex](exp2/) |
-|    3    | [to be named](exp3/)         |
-|    4    | [to be named](exp4/)         |
+|    3    | [Lex 2](exp3/)               |
+|    4    | [Lex 3](exp4/)               |
+|    5    | [Lex 4](exp5/)               |
