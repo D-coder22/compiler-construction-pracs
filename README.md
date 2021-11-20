@@ -11,3 +11,4 @@ Codes made during Compiler Construction Practicals
 |    3    | [Lex 2](exp3/)               |
 |    4    | [Lex 3](exp4/)               |
 |    5    | [Lex 4](exp5/)               |
+|    6    | [Yacc](exp6/)                |

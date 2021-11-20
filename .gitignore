@@ -1,3 +1,6 @@
+# Yacc generated C files
+*/y.tab.c
+
 # Lex generated C files 
 */lex.yy.c
 
